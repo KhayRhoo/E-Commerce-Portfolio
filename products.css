@@ -1,0 +1,17 @@
+nav{
+    border: 2px solid;
+    display: block;
+    text-align: center;
+    float: center;
+}
+
+li{
+    display: inline;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+    
+    text-decoration: none;
+}
