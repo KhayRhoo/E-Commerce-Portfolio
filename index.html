@@ -1,25 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="home.js"></script>
     <title>CatCats</title>
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to CatCats!</p>
-    </header>
+
+
     <nav>
-        <ul>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
+
+        <h1>Welcome to CatCats!</h1>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </div>
+
+        <span onclick="openNav()">nav</span>
+
+        <input type="text" placeholder="Search..">
+
+
     </nav>
 
-    
+
+    <div id="main">
+        ...
+    </div>
+
+
+
+    <figure>
+        <figcaption>
+
+            <ul>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </figcaption>
+    </figure>
+
 
 </body>
+
 </html>
