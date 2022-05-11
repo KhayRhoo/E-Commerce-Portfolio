@@ -1,17 +1,99 @@
-nav{
-    border: 2px solid;
-    display: block;
-    text-align: center;
-    float: center;
+* {
+    /*full page*/
+    margin: 0;
 }
 
-li{
+div.left {/*Shop name*/
+    width: 100%;
+    height: 70px;
+    background: purple;
+    font-family: cursive;
+}
+
+div.navwrap {
+    vertical-align: top;
+    display: inline-block;
+}
+
+form#search {
+    display: inline-block;
+}
+
+div.logo {
+    display: inline-block;
+    background-color: pink;
+    color: black;
+    height: 70px;
+    line-height: 70px;
+    width: 210px;
+    font-size: 61px;
+    text-align: center;
+}
+
+ul.nav li {
+    display: inline;
+    list-style: none;
+    color: black;
+}
+
+li {
     display: inline;
     margin: auto;
 }
 
-ul{
-    list-style-type: none;
-    
-    text-decoration: none;
+ul {
+    /*navigation*/
+    display: inline;
+    list-style: none;
 }
+
+body {
+    height: 700px;
+}
+
+table {
+    position: center;
+    border: solid black;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-collapse: collapse;
+    text-align: center;
+    overflow: hidden;
+}
+
+th {
+    border: solid black;
+
+
+    border-collapse: collapse;
+}
+
+tr {
+    position: bottom;
+
+}
+
+td {
+    border: solid black;
+height: 100px;
+
+    border-collapse: collapse;
+}
+
+
+
+footer {
+    color: black;
+    background-color: greenyellow;
+    bottom: 0;
+    width: 100%;
+    height: 7em;
+    margin-bottom: 0;
+    display: block;
+    list-style: none;
+    position: absolute;
+    text-align: center;
+}
+
+

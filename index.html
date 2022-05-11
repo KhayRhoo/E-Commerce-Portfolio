@@ -12,43 +12,66 @@
 
 <body>
 
-
     <nav>
-
-        <h1>Welcome to CatCats!</h1>
-
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">Products</a>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
+        <div class="left">
+            <div clas="header-wrapper-inner">
+                <div class="logo">
+                    CatCats
+                </div>
+                <div class="navwrap">
+                    <ul class="nav">
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="products.html">Products</a> </li>
+                        <li> <a href="about.html">About</a> </li>
+                        <li> <a href="contact.html">Contact</a> </li>
+                        <li>
+                            <form id="search" name="search">
+                                <input type="text" name="q" placeholder="Search">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
-        <span onclick="openNav()">nav</span>
-
-        <input type="text" placeholder="Search..">
-
-
     </nav>
+
+    <figure>
+        <!--hero image-->
+        <img src="https://media.gettyimages.com/photos/abstract-3d-geometric-shapes-cube-blocks-background-with-neon-lights-picture-id1172023060?s=2048x2048" width=100% height="300">
+    </figure>
 
 
     <div id="main">
-        ...
+        <!--Content body-->
+        <section class="feline">
+            <h3>Check out our cat treats</h3>
+        </section>
+
+        <section clas="k9">
+            <h3>We also have snacks for other pets</h3>
+        </section>
+
+        <section class="about">
+            <h3>Get to know us better!</h3>
+        </section>
+
+
+
     </div>
 
+    <footer>
 
+        <ul>
+            <li>
+                <img class="cat" src="cat.png" alt="Logo" width=50 height=54>
+                <a href="#"><img src="Last/Facebook.png" alt="Facebook" width="30" height="30"></a>
+                <a href="#"><img src="Last/Instagram.png" alt="Instagram" width="30" height="30"></a>
+                <a href="#"><img src="Last/Twitter.png" alt="Twitter" width="30" height="30"></a>
+                <a href="#"><img src="Last/Youtube.png" alt="Youtube" width="30" height="30"></a>
+            </li>
+        </ul>
 
-    <figure>
-        <figcaption>
-
-            <ul>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </figcaption>
-    </figure>
-
+    </footer>
 
 </body>
 
