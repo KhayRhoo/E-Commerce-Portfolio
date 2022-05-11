@@ -1,14 +1,11 @@
-<!--Inspo from chewy.com and https://99designs.com/blog/creative-inspiration/web-design-ideas/-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="home.js"></script>
-    <title>CatCats</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contact</title>
+    <link href="contact.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -36,32 +33,32 @@
         </div>
     </nav>
 
-    <figure>
-        <!--hero image/try making slideshow-->
-        <img src="https://media.gettyimages.com/photos/abstract-3d-geometric-shapes-cube-blocks-background-with-neon-lights-picture-id1172023060?s=2048x2048" width=100% height="300">
-    </figure>
+    <h3>What can we help you with? question question paragraph</h3>
 
+    <form class="contact" action="page.php">
+        <label>Full Name</label>
+        <br />
+        <input type="text" name="First Name" placeholder="FirstName">
+        <input type="text" name="Last Name" placeholder="LastName">
+        <br />
+        <label>Phone Number</label>
+        <br />
+        <input type="text" name="Phone" placeholder="(XXX)XXX-XXXX">
+        <br />
+        <label>Email</label>
+        <br />
+        <input type="text" name="Email" placeholder="EmailAddress">
+        <br />
+        <label>Message</label>
+        <br />
+        <textarea name="Message" placeholder="Message..." rows="10" cols="30"></textarea>
+        <br />
+        <input type=submit>
+    </form>
+    <br />
 
-    <div id="main">
-        <!--Content body-->
-        <section class="feline">
-            <h3>Check out our cat treats</h3>
-        </section>
-
-        <section clas="k9">
-            <h3>We also have snacks for other pets</h3>
-        </section>
-
-        <section class="about">
-            <h3>Get to know us better!</h3>
-        </section>
-
-
-
-    </div>
 
     <footer>
-
         <ul>
             <li>
                 <img class="cat" src="cat.png" alt="Logo" width=50 height=54>
@@ -75,5 +72,7 @@
     </footer>
 
 </body>
+
+
 
 </html>
